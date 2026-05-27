@@ -124,7 +124,11 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <motion.div className="flex items-center gap-3" whileHover={{ scale: 1.02 }}>
           <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md" style={{ background: `linear-gradient(135deg, ${COLORS.teal}, ${COLORS.tealDark})` }}>
-            <Heart size={20} fill="white" color="white" />
+             <img
+    src="/loguito.png"
+    alt="PsicoLuz Logo"
+    className="w-7 h-7 object-contain"
+  />
           </div>
           <div>
             <span className="font-black text-xl tracking-tight" style={{ fontFamily: "Poppins", color: scrolled ? COLORS.dark : "white" }}>Psico<span style={{ color: COLORS.orange }}>Luz</span></span>
